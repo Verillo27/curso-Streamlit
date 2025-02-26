@@ -12,5 +12,4 @@ st.multiselect(
   ["verde","azul","roxo",],
   ["azul","roxo"])
 st.checkbox("Sorvete")
- st.checkbox("cafe")
 st.checkbox("refri")
