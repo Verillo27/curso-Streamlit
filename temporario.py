@@ -4,3 +4,6 @@ st.header("cabeçalho")
 st.toggle("ligar se vc for massa")
 st.text_input("")
 st.text_area("enter text")
+st.selectbox(
+  "qual você prefere",
+  ("marvel","dc", "nenhum")
