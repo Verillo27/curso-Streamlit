@@ -1,6 +1,6 @@
 import streamlit as st
 st.button("botao salvar")
 st.header("cabeçalho")
-st.toggle("ligar se for elu/delu")
-st.text_input("movie title", "life of brian")
+st.toggle("ligar se vc for massa")
+st.text_input()
 st.text_area("enter text")
