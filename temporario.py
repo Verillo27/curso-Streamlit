@@ -7,3 +7,7 @@ st.text_area("enter text")
 st.selectbox(
   "qual você prefere",
   ("marvel","dc", "nenhum"))
+st.multiselect(
+  "quais sao suas cores favoritas",
+  ["verde","azul","roxo",],
+  ["azul","roxo"]}
