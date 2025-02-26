@@ -13,5 +13,5 @@ st.multiselect(
   ["azul","roxo"])
 st.checkbox("Sorvete")
 st.checkbox("refri")
-st.color_picker("pick a color", "#ooF900")
+st.color_picker("pick a color", "#00F900")
 st.feedback("stars")
