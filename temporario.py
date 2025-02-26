@@ -6,4 +6,4 @@ st.text_input("")
 st.text_area("enter text")
 st.selectbox(
   "qual você prefere",
-  ("marvel","dc", "nenhum")
+  ("marvel","dc", "nenhum"))
