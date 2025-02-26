@@ -10,4 +10,4 @@ st.selectbox(
 st.multiselect(
   "quais sao suas cores favoritas",
   ["verde","azul","roxo",],
-  ["azul","roxo"]}
+  ["azul","roxo"])
