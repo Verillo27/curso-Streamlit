@@ -14,3 +14,12 @@ st.header("Sexo")
 st.text_input("", key="input_4")
 st.header("Salario")
 st.text_input("", key="input_5")
+
+# Título do aplicativo
+st.title("Escolha uma opção")
+
+# Lista de opções
+opcoes = ["Opção 1", "Opção 2", "Opção 3"]
+
+# Selectbox para escolher uma opção
+escolha = st.selectbox("Selecione uma opção:", opcoes)
