@@ -8,9 +8,9 @@ st.text_input("", key="input_2")
 st.header("nascimento")
 d = st.date_input("Qual é seu aniversario", 
                   format="DD.MM.YYYY")
-st.header("Estado Civil")
+st.title("Estado Civil")
 opcoes = ["Solteiro", "Casado", "Divorciado", "Viuvo"]
-st.header("Sexo")
+st.title("Escolha uma opção")
 opcoes = ["Mulher", "Homem"]
 st.header("Salario")
 st.text_input("", key="input_5")
