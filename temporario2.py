@@ -15,7 +15,7 @@ st.title("Sexo")
 opcoes = ["Mulher", "Homem"]
 escolha = st.selectbox("Selecione uma opção:", opcoes)
 st.header("Salario")
-st.text_input("", key="input_5")
+st.number_input("", key="input_5")
 
 
 
