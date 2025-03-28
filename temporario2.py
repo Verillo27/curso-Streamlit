@@ -9,14 +9,13 @@ st.header("nascimento")
 d = st.date_input("Qual é seu aniversario", 
                   format="DD.MM.YYYY")
 st.header("Estado Civil")
-st.text_input("", key="input_3")
+opcoes = ["Solteiro", "Casado", "Divorciado", "Viuvo"]
 st.header("Sexo")
-st.text_input("", key="input_4")
+opcoes = ["Mulher", "Homem"]
 st.header("Salario")
 st.text_input("", key="input_5")
 
-# Título do aplicativo
-st.title("Escolha uma opção")
+
 
 # Lista de opções
 opcoes = ["Opção 1", "Opção 2", "Opção 3"]
