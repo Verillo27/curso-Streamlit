@@ -17,8 +17,4 @@ st.text_input("", key="input_5")
 
 
 
-# Lista de opções
-opcoes = ["Opção 1", "Opção 2", "Opção 3"]
 
-# Selectbox para escolher uma opção
-escolha = st.selectbox("Selecione uma opção:", opcoes)
