@@ -11,7 +11,7 @@ d = st.date_input("Qual é seu aniversario",
 st.title("Estado Civil")
 opcoes = ["Solteiro", "Casado", "Divorciado", "Viuvo"]
 escolha = st.selectbox("Selecione uma opção:", opcoes)
-st.title("Escolha uma opção")
+st.title("Sexo")
 opcoes = ["Mulher", "Homem"]
 escolha = st.selectbox("Selecione uma opção:", opcoes)
 st.header("Salario")
