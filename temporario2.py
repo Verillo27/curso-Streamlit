@@ -24,6 +24,8 @@ def calcular_aumento(salario):
         return "não aumento"
 
 
+resultado = calcular_aumento(salario)
+
 class Salario:
     def __init__(self, aumento=0):
         self.aumento = aumento
