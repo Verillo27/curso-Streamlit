@@ -38,7 +38,6 @@ class Salario:
             salario += self.aumento
 
 
-
 def calcular_novo_salario(salario, aumento):
     novo_salario = salario + aumento
     return novo_salario
