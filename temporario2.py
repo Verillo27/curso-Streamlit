@@ -41,7 +41,11 @@ def calcular_novo_salario(salario, aumento):
     novo_salario = salario + aumento
     return novo_salario
 
-# Interface do Streamlit
+
+def calcular_novo_salario(salario, aumento):
+    novo_salario = salario + aumento
+    return novo_salario
+
 st.title("Calculadora de Aumento de Salário")
 salario_inicial = st.number_input("Digite o salário inicial:", min_value=0)
 aumento = st.number_input("Digite o valor do aumento:", min_value=0, value=500)
