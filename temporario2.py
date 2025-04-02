@@ -39,14 +39,11 @@ class Salario:
 
 
 
-salario_obj = Salario()
-salario_obj.ajustar_salario(salario)
-
 def calcular_novo_salario(salario, aumento):
     novo_salario = salario + aumento
     return novo_salario
 
-
+# Interface do Streamlit
 st.title("Calculadora de Aumento de Salário")
 salario_inicial = st.number_input("Digite o salário inicial:", min_value=0)
 aumento = st.number_input("Digite o valor do aumento:", min_value=0, value=500)
