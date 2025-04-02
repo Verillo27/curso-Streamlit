@@ -14,8 +14,7 @@ escolha = st.selectbox("Selecione uma opção:", opcoes)
 st.title("Sexo")
 opcoes = ["Mulher", "Homem"]
 escolha = st.selectbox("Selecione uma opção:", opcoes)
-st.header("Salario")
-st.number_input("", key="input_5")
+
 
 # Função para calcular aumento
 def calcular_aumento(salario):
