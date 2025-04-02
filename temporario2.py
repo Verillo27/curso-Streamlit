@@ -22,9 +22,6 @@ salario = st.number_input("Digite o salário:", min_value=0)
 resultado = calcular_aumento(salario)
 st.write("Resultado:", resultado)
 
-class Salario:
- def __init__(self, aumento=0):
- self.aumento = aumento
 
  def ajustar_salario(self, salario):
  while salario == 500:
