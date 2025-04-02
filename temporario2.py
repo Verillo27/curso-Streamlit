@@ -17,11 +17,6 @@ escolha = st.selectbox("Selecione uma opção:", opcoes)
 
 
 
-def calcular_aumento(salario):
- if salario < 2500:
- return "aumento"
- else:
- return "não aumento"
 
 salario = st.number_input("Digite o salário:", min_value=0)
 resultado = calcular_aumento(salario)
