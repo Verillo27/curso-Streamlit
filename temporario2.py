@@ -35,6 +35,9 @@ class Salario:
             st.write("Aumento de salário:", salario)
             salario += self.aumento
 
+salario = st.number_input("Digite o salário:", min_value=0)
+resultado = calcular_aumento(salario)
+st.write("Resultado:", resultado)
 
 salario_obj = Salario()
 salario_obj.ajustar_salario(salario)
